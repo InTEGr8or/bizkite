@@ -1,0 +1,10 @@
+baseURL = 'http://bizkite.co/'
+languageCode = 'en-us'
+title = 'Lift your business with AI'
+
+[params]
+    description = "Business solutions that learn from you"
+    address = "407 W Imperial Hwy Ste H 103, Brea, CA 92821-4803"
+
+[[module.imports]]
+  path = "github.com/syui/hugo-theme-air"
