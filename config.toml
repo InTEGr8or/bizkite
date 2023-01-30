@@ -1,6 +1,8 @@
 baseURL = 'http://bizkite.co/'
 languageCode = 'en-us'
 title = 'Lift your business with AI'
+address = '407 W Imperial Hwy Ste H 103, Brea, CA 92821-4803'
+description = 'Business solutions that learn from you'
 
 [params]
     description = "Business solutions that learn from you"
