@@ -1,0 +1,63 @@
+#################### default parameters ################################
+favicon = "img/favicon.png"
+logo_text = "Handex.io"
+logo = "images/sky-kite.png"
+logo_width = "101px"
+# Meta data
+description = "Business solutions that learn from you"
+address = "407 W Imperial Hwy Ste H 103, Brea, CA 92821-4803"
+gooble_analytics = "G-W378F517HM"
+mobile = "+17144685854"
+email = "mark@bizkite.co"
+footer_info = "This is the start of dummy description text. You can change it whenever you want. ea voluptatem adipisci sapiente?"
+# form action
+contact_form_action = "#" # contact form works with https://formspree.io or formspree alternative
+newsletter_form_action = "#" # contact form works with https://formspree.io or formspree alternative
+# custom script on header
+custom_script= ""
+
+# page header background
+page_header= "images/page-header.webp"
+
+# Preloader
+[preloader]
+enable = true
+
+# Navigation button
+[navigation_button]
+enable = true
+label = "Try For Free"
+link = "contact/"
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+############################# social site ########################
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # fontawesome icon : https://fontawesome.com/icons/
+link = "#"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter" # fontawesome icon : https://fontawesome.com/icons/
+link = "#"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
+
+[[social]]
+title = "github"
+icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
+
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
