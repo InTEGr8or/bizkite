@@ -6,7 +6,7 @@ address = '407 W Imperial Hwy Ste H 103, Brea, CA 92821-4803'
 description = 'Business solutions that learn from you'
 mobile = "+1 714-468-5854"
 
-theme = "saasis"
+theme = "copper-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
