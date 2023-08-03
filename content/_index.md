@@ -2,7 +2,6 @@
 title: "BizKite Solutions"
 date: 2023-01-09T14:35:34-08:00
 draft: false
-date: 2022-11-29
 ---
 
 # Business Solutions that learn from you

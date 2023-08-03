@@ -1,19 +1,65 @@
 ---
-title: "FAQ"
-heading: "Have a question?"
-draft: false
-_build:
-  render: never
-
-image: "images/undraw/undraw_inbox_cleanup_re_jcbh.svg"
-
-faq:
-- title: "How fast will I be able to type?"
-  content: "You only have to learn one Handex, and you can type without ever looking, so Handex users can expect to be able to develop fast typing faster than they did with a keyboard."
-- title: "How long will it take to learn?"
-  content: "We've developed fun learning tools that you can use at any moment of the day, and wherever you are, so learning Handex will be faster than learning a keyboard."
-- title: "Is Handex a full keyboard?"
-  content: "Handex uses the full Bluettooth HID keyboard usage table of 250 keys, and there are special key-combinations coming."
-- title: "Is Handex fun to use?"
-  content: "Handex will probably be the most ergonomic device you'll ever hold, and you can use it with all the latest mobile tech, so it's a blast to use."
+title : "FAQ"
+description : "this is meta description"
+layout : "faq"
+draft : false
 ---
+
+### How to start with BizKite?
+
+{{< collapse "How can I integrate BizKite to my current tool stack?" >}}
+**Service Provided As:**
+The Service is provided for free during this pilot project, and is provided "as is" with no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any level of service or availability of the Service. A further description of the Service and our user support is available at the Site.
+
+<br>
+<br>
+
+**Company Liability:**
+The Service is provided for free during this pilot project, and is provided "as is" with no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any level of service or availability of the Service.
+{{</ collapse >}}
+
+
+
+{{< collapse "How can I use BizKite with cloud?" >}}
+**Service Provided As:**
+The Service is provided for free during this pilot project, and is provided "as is" with no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any level of service or availability of the Service. A further description of the Service and our user support is available at the Site.
+
+<br>
+<br>
+
+**Company Liability:**
+The Service is provided for free during this pilot project, and is provided "as is" with no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any level of service or availability of the Service.
+{{</ collapse >}}
+
+
+{{< collapse "How can I use BizKite with cloud documents?" >}}
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+{{</ collapse >}}
+
+<br>
+<br>
+
+### How to customize BizKite?
+
+{{< collapse "How do I get back to BizKite and resume my subscription?" >}}
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+{{</ collapse >}}
+
+
+{{< collapse "How can I integrate It to my current tool stack?" >}}
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+proident. Ad vegan excepteur butcher vice lomo. 
+{{</ collapse >}}
