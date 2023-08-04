@@ -17,11 +17,10 @@ jobs:
           submodules: false  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - name: Hugo setup
+        uses: peaceiris/actions-hugo@v2.6.0
         with:
-          hugo-version: 'latest'
-          # extended: true
+          hugo-version: '0.116.1'
 
       - name: Build
         run: hugo --minify
@@ -32,6 +31,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          destination_dir: ./
-          publish_branch: published
           cname: bizkite.co

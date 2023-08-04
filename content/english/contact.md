@@ -1,6 +1,6 @@
 ---
 title : "Contact Us"
-description : "this is meta description"
+description : "We'are happy to hear from our customers."
 layout : "contact"
 draft : false
 
@@ -10,9 +10,9 @@ contact_info:
   enable : true
   title : "Our Contact Info"
   address_list:
-  - "gothesaasgo@gmail.com"
-  - "(207) 555-0119"
-  - "3891 Ranchview Dr. Richardson Main Road Near Amazon, California 62639"
+  - "support@bizkite.co"
+  - 714.468.5854
+  - 407 W IMPERIAL HWY STE H 103 BREA, CA  92821-4803
 
 ############ Services ############
 services:
