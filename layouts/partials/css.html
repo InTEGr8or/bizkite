@@ -1,0 +1,4 @@
+{{ $opts := dict "use" "autoprefixer postcss-color-alpha" }}
+{{ with resources.Get "css/main.css" | postCSS $opts }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}">
+{{ end }}
