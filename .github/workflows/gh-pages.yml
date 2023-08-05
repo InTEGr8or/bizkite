@@ -22,9 +22,6 @@ jobs:
         with:
           node-version: '16.x'
 
-      - name: GitHub Action for npx
-        uses: mikeal/npx@1.0.0
-
       - name: Install
         run: npm install
 
