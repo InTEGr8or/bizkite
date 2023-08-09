@@ -17,7 +17,7 @@ team_member:
   - icon : "fab fa-github"
     link : "#"
 
-- name : "Julie Clarkson" 
+- name : "Jun Clarkson" 
   image : "images/team/02.jpg"
   designation : "Senior Designer"
   group : "designers"

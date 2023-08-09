@@ -61,7 +61,7 @@ featured_testimonial:
   image : "images/testimonials/01.jpg"
   video:
     enable : true
-    video_embed_link : "https://www.youtube.com/embed/dyZcRRWiuuw"
+    video_embed_link : ""
 ---
 
 ## What Our **Client says**

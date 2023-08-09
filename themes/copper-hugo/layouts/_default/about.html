@@ -107,7 +107,7 @@
         <div class="has-video-popup">
           {{ if .video.enable }}
           {{ with .video }}
-          <button type="button" class="video-play-btn" data-bs-toggle="modal"
+          <button type="button" class="video-play-btn-disabled" data-bs-toggle="modal"
             data-src="{{ .video_embed_link | safeURL }}" data-bs-target="#videoModal"><svg width="1.8em" height="1.8em"
               viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path
