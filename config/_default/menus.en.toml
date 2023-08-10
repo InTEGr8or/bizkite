@@ -15,10 +15,10 @@ name = "Services"
 url = "services/"
 weight = 3
 
-[[main]]
-name = "Team"
-url = "team/"
-weight = 4
+# [[main]]
+# name = "Team"
+# url = "team/"
+# weight = 4
 
 [[main]]
 name = "Blog"
@@ -35,10 +35,10 @@ name = "Pages"
 weight = 7
 hasChildren = true
 
-  [[main]]
-  parent = "Pages"
-  name = "Career"
-  url = "career/"
+  # [[main]]
+  # parent = "Pages"
+  # name = "Career"
+  # url = "career/"
 
   [[main]]
   parent = "Pages"
