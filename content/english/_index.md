@@ -12,12 +12,12 @@ banner:
     enable : true
     form_acttion : "#"
     button_label : "Request Demo"
-  button:
-    enable : true
-    icon : "images/brands/google.png"
-    label : "Sign Up With Google"
-    link : "#"
-    content : "No credit card required. Available on [Mac](), [Windows](), [iOS](), & [Android]()"
+  # button:
+  #   enable : true
+  #   icon : "images/brands/google.png"
+  #   label : "Sign Up With Google"
+  #   link : "#"
+  #   content : "No credit card required. Available on [Mac](), [Windows](), [iOS](), & [Android]()"
 
 
 
@@ -37,7 +37,7 @@ clients_logo_slider:
   - "images/brands/04-colored.png"
   - "images/brands/05-colored.png"
   - "images/brands/06-colored.png"
-  
+
 
 ########################## How it works #########################
 homepage_tab:
@@ -54,7 +54,7 @@ homepage_tab:
       enable : true
       label : "View More"
       link : "how-it-works"
-      
+
   # tab item
   - name : "Built-In Chat"
     title : "Built-In **Chat**"
@@ -64,17 +64,17 @@ homepage_tab:
       enable : true
       label : "View More"
       link : "how-it-works"
-      
+
   # tab item
   - name : "Project Analytics"
     title : "Project **Analytics**"
     image : "images/screenshots/04.png"
-    content : See specific changes your project must take to reach the target solution in a custom dashboard 
+    content : See specific changes your project must take to reach the target solution in a custom dashboard
     button:
       enable : true
       label : "View More"
       link : "how-it-works"
-      
+
   # tab item
   - name : "Task Collaboration"
     title : "Task **Collaboration**"
@@ -102,22 +102,22 @@ tools:
   - "images/tools/08.png"
   - "images/tools/05.png"
 
-  
+
 
 ############################## Achivement ##############################
 achivement:
   enable : true
   title : "Average yearly growth rate **across our clients We able to achive**"
-  content : Clients see regular performance improvements in scale and reliability within months of implementation. 
+  content : Clients see regular performance improvements in scale and reliability within months of implementation.
   funfacts:
   - name : "Years Of <br> Experience"
     count : "24"
     extension : "+"
-    
+
   - name : "More Real <br> Active users"
     count : "10"
     extension : "M+"
-    
+
   - name : "Employees <br> Work Here"
     count : "3000"
     extension : "+"
@@ -125,13 +125,13 @@ achivement:
   services:
   - name : "Fully Secure And Hack-Free"
     icon : "far fa-thumbs-up" # fontawesome icon : https://fontawesome.com/icons
-    
+
   - name : "Always Have Great Support"
     icon : "far fa-comment-dots" # fontawesome icon : https://fontawesome.com/icons
-    
+
   - name : "Build with Time-to-Value"
     icon : "fas fa-film" # fontawesome icon : https://fontawesome.com/icons
-    
+
   - name : "Fully Prepared with Safe Conditions"
     icon : "fas fa-shield-alt" # fontawesome icon : https://fontawesome.com/icons
 
@@ -142,7 +142,7 @@ workflow:
   title : "Create an automated **workflow by setting**"
   image : "images/screenshots/03.png"
   content : Pick from a growing list of automated processes that improve your business's readiness and reliable automation.
-  
+
 
 ############################## about us ################################
 about_us:
@@ -155,7 +155,7 @@ about_us:
     - Pay-as-you-go value-based pricing.
     - Money-back satisfaction guarantees.
 
-    
+
 
 ############################# Testimonial ############################
 testimonial:
@@ -172,12 +172,12 @@ testimonial:
     image : "images/users/01.jpg"
     designation : "CEO, Regus Corporation"
     content : "BizKite solved our code-recovery problem and saved our website."
-    
+
   - name : "Flavio Ranks"
     image : "images/users/02.jpg"
     designation : "CEO, Gaston LLC"
     content : "Our small, short-turn-around projects were no problem for BizKite."
-    
+
   - name : "Norman Coswell"
     image : "images/users/03.jpg"
     designation : "CEO, Pacific Mercantile Market"

@@ -3,7 +3,7 @@ baseURL = "https://bizkite.co"
 title = "BizKite - Lift your business into the cloud"
 theme = "copper-hugo"
 # post pagination
-paginate = "6"
+pagination.pagerSize = "6"
 # post excerpt
 summaryLength = "10"
 # google analytics

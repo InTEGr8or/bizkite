@@ -16,12 +16,12 @@
             <input class="d-none" type="radio" name="shuffle-filter" value="all" checked="checked">
             {{ i18n "all_together"}}
           </label>
-          
+
 					{{ $group := slice }}
 					{{ range .Params.team_member }}
 					{{ $group = $group | append .group }}
           {{ end }}
-          
+
 					{{ range ( $group | uniq ) }}
           <label class="btn mb-3">
             <input class="d-none" type="radio" name="shuffle-filter" value="{{ . |urlize}}">
@@ -35,7 +35,7 @@
       {{ range .Params.team_member}}
       <div class="masonry-item team-item col-lg-4 col-sm-6 mt-4" data-groups="[&quot;{{.group | urlize}}&quot;]">
         <div class="text-center mb-30">
-          <div class="team-image has-shapes d-inline-block mb-25"> 
+          <div class="team-image has-shapes d-inline-block mb-25">
             {{ partial "image.html" (dict "Src" .image "Alt" "blog-image" "Class" `rounded-circle` "Size" "250x") }}
 
             <div class="team-shapes">
@@ -46,14 +46,14 @@
           </div>
           <h4 class="font-weight-bold mb-10">{{.name}}</h4>
           <p>{{ .designation }}</p>
-          <ul class="list-unstyled list-inline mt-2">
-            {{ range .social }}
+          <!-- <ul class="list-unstyled list-inline mt-2">
+            {{ range Params.social }}
             <li class="list-inline-item">
               <a href="{{ .link | safeURL }}" class="p-2 d-inline-block">
                 <span class="{{ .icon }}"></span></a>
             </li>
             {{ end }}
-          </ul>
+          </ul> -->
         </div>
         <!-- team item -->
       </div>
