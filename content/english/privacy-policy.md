@@ -1,46 +1,34 @@
 ---
-title : "Privacy Policy"
-description : "this is meta description"
-layout : "regular"
-draft : false
+title: "Privacy Policy"
+description: "How BizKite LLC handles information on this website and in its own books."
+layout: "regular"
+draft: false
 ---
 
-### GDPR Compliance
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.
+Effective November 18, 2026.
 
-We collect certain identifying personal data when you sign up to our Service such as your name, email
-address, PayPal address (if different from email address), and telephone number. The personal data we
-collect from you is disclosed only in accordance with our Terms of Service and/or this Privacy
-Policy.Conclude collects Slack account and access information from Users for the purposes of connecting to
-the Slack API and to authenticate access to information on the Conclude website. Whenever you visit our
-Site, we may collect non-identifying information from you, such as referring URL, browser, operating system,
-cookie information, and Internet Service Provider. Without a subpoena, voluntary compliance on the part of
-your Internet Service Provider, or additional records from a third party, this information alone cannot
-usually be used to identify you.The term "personal data" does not include any anonymized and aggregated data
-made on the basis of personal data, which are wholly owned by Conclude.
+BizKite LLC is a one-person practice operated by Mark Stouffer. This policy describes the information that practice handles. The contact for privacy questions is [mark@bizkite.net](mailto:mark@bizkite.net).
 
-### About BizKite
-##### Service Provided As:
-The Service is provided for free during this pilot project, and is provided "as is" with
-no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any
-level of service or availability of the Service. A further description of the Service and our user support
-is available at the Site. contact at [hello@BizKite.com](mailto:hello@BizKite.com)
+### This website
 
+bizkite.net is a static website hosted on GitHub Pages. It has no accounts, no shopping cart, and no comment system. BizKite does not run analytics or advertising on it, and it does not sell personal information.
 
-##### Company Liability:
-If you enter into this agreement on behalf of a company, you hereby agree that the company is responsible
-under this Agreement for all actions and omissions conducted by its designated users of the Service.
+Visiting the site does not create a BizKite customer record. GitHub, as the host, receives the usual connection data for a web request, including the IP address, as described in GitHub's own privacy statement.
 
-### When we collect personal data about you
+### Bookkeeping and bank connections
 
-* Enhance or improve User experience, our Site, or our Service.
-* Send emails and updates about Conclude, Process transactions.
-* Send emails about our Site or respond to inquiries.
-* Including news and requests for agreement to amended legal documents such as this Privacy Policy and our Terms of Service.
+BizKite keeps its own books on the operator's computer. To download the practice's own bank transactions, that computer uses Plaid. The bank login is entered at the bank or in Plaid's connection window. BizKite does not store the bank password.
 
-### Why we collect and use personal data
-Users of Conclude (i) must keep passwords secure and confidential; (ii) are solely responsible for User
-Data and all activity in their account while using the Service; (iii) must use commercially reasonable
-efforts access to their account, and notify Conclude promptly of any such unauthorized access; and (iv) may
-use the Service only in accordance with Conclude's online user guide and all applicable laws and
-regulations.
+Plaid returns an access token and the transactions. The token and the books stay on that computer. The disk is encrypted with BitLocker, and the computer is unlocked with Windows Hello. API secrets are stored in 1Password. Those files are not sold, rented, or shared with advertisers.
+
+The transactions are kept as ordinary business and tax records. The access token is kept only while that bank connection is in use. Removing the connection means revoking it through the bank or Plaid and deleting the token stored on the computer. The books themselves are removed only when they are no longer needed as business records.
+
+There is no separate consumer application. The only person who connects a bank is the operator of the practice.
+
+### Mail
+
+BizKite sends and receives email through Microsoft 365 at bizkite.net addresses. Mail is used to operate the practice, including sending invoices to clients. Invoice email goes to the billing contacts the client has given BizKite.
+
+### Changes
+
+When this policy changes, the updated text is published on this page with a new effective date.

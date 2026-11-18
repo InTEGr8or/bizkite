@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://bizkite.co"
+baseURL = "https://bizkite.net/"
 title = "BizKite - Lift your business into the cloud"
 theme = "copper-hugo"
 # post pagination
